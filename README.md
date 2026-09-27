@@ -32,6 +32,7 @@
 
 - **Importar** capas avulsas, pastas ou packs `.zip`, `.rar` e `.7z`.
 - **Corrigir ou pular** capas durante a importação, com prévia e progresso.
+- **Buscar pelo nome do jogo** no modal da capa e selecionar o resultado para preencher o AppID. A busca funciona offline com o catálogo incluído no app.
 - **Clicar em uma capa** para alterar a imagem, trocar seu AppID, aplicar só aquele jogo, restaurar a original na Steam ou apagar da coleção.
 - **Baixar sua coleção** em ZIP para guardar ou importar depois.
 - **Aprender pelo Tutorial** dentro do aplicativo, com exemplo visual do AppID.
@@ -51,6 +52,8 @@ ZIP funciona diretamente. Para RAR e 7Z, instale o [7-Zip](https://www.7-zip.org
 <summary><strong>Quais imagens posso usar? O que é AppID?</strong></summary>
 
 Use imagens verticais em PNG, JPG ou JPEG. O AppID é o número que identifica um jogo na Steam; consulte-o no [SteamDB](https://steamdb.info/).
+
+Você também pode digitar o nome do jogo no próprio modal, selecionar o resultado e confirmar o AppID preenchido. Cada resultado tem um link para conferir o jogo na Steam. O botão **Atualizar** busca uma lista mais recente; o campo manual continua disponível.
 
 Nomes como `10.png` ou `10p.jpg` fornecem o ID automaticamente. Nomes com letras, como `5a1d36.jpg`, também são aceitos: informe o número dentro do app. O programa não reconhece o jogo pela imagem; confira se o número corresponde à capa.
 
@@ -85,4 +88,4 @@ Feche a Steam antes de aplicar ou restaurar e abra novamente depois.
 
 ---
 
-Este repositório contém apenas a apresentação do app e os downloads. O código-fonte é mantido em um repositório privado de desenvolvimento. Para baixar o aplicativo, escolha o `.exe` nos assets da release; os arquivos automáticos **Source code** contêm apenas esta documentação e a logo.
+Este repositório contém a apresentação do app, a logo, o catálogo de nomes e AppIDs e os downloads. O código-fonte é mantido em um repositório privado de desenvolvimento. Para baixar o aplicativo, escolha o `.exe` nos assets da release; os arquivos automáticos **Source code** contêm somente os arquivos públicos deste repositório, sem o código do programa.
